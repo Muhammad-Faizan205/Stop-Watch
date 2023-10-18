@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <div class="container">
+
+    <h1 class="heading">Stop Watch</h1>
+
+    <div class="main">
+        <p>
+            <span id="hours1" class="hours">00</span><sub>Hours</sub><span id="min2" class="mins">00</span><sub>Min</sub><span id="sec3" class="sec">00</span><sub>sec</sub><span id="msec4" class="msec">00</span>
+        </p>
+    </div>
+    <div class="but">
+        <button onclick="start()" id="startbut">Start</button>
+        <button onclick="stop()" >Stop</button>
+        <button onclick="reset()" >Reset</button>
+    </div>
+   </div>
+    <script src="app.js"></script>
+</body>
+</html>
